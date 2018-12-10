@@ -1,13 +1,27 @@
-body,
+/* body,
 html {
   width: 100%;
   height: 100%;
+} */
+
+*{
+  margin: 0;
+  padding: 0;
 }
 
 body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
   
+
+h4 {
+  color: #000;
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 2;
+}
   /*--------------------------------------------------------------
   # Hero Section
   --------------------------------------------------------------*/
@@ -117,16 +131,56 @@ body {
   #hero .btns a:hover {
     color: #77acb7;
   }
-  .bg-primary {
+ 
+  #info {
+  /* padding-bottom: 8rem; */
+  margin-top: 48px;
+  }
+   .info-bg {
     background-color: rgb(178, 179, 230) !important;
   }
-  section {
-    padding: 6rem 0;
+  #parceiros {
+    /* padding-bottom: 8rem; */
+    margin-top: 48px;
+    }
+  .parceiros-bg {
+  background-color: rgb(202, 202, 211) !important;
+  }
+
+  /* #categorias {
+    display: inline-block;
+    height: 40%;
+    width: 40%;
+    margin-left: 30%;
+  } */
+  
+  #categorias .feature-block {
+    background: #fff none repeat scroll 0 0;
+    padding-top: 50px;
+    margin-bottom: 30px;
+    transition: all 0.5s ease-in-out 0s;
+    /* align-items: center; */
   }
   
-  .section-heading {
-    margin-top: 0;
+  #categorias .feature-block:hover {
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s ease-in-out 0s;
   }
+  
+  #categorias .feature-block h4 {
+    margin-bottom: 20px;
+  }
+
+  #categorias .feature-block img {
+    width: 40%;
+  }
+  
+  #categorias .feature-block p {
+    margin-bottom: 20px;
+  }
+
+
+
 
   .login {
     padding: 0.75rem 1rem 0;
