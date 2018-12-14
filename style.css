@@ -1,0 +1,232 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Lato', sans-serif;
+}
+  
+.nav-font{
+  color: #365c8d;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 700;
+  font-size: 15px
+}
+
+h4 {
+  color: #000;
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 2;
+}
+  #hero {
+    width: 100%;
+    height: calc(100vh - 40px);
+    background: url(img/nuvem.png) center bottom no-repeat;
+    background-size: 100%;
+    position: relative;
+    margin-top: 40px;
+  }
+  
+  @media (min-width: 1025px) {
+    #hero {
+      background-attachment: fixed;
+    }
+  }
+  
+  #hero .hero-container {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  #hero h1 {
+    margin: 0 0 10px 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    font-family: 'Staatliches', cursive;
+    color: #77acb7;
+  }
+  
+  @media (max-width: 768px) {
+    #hero h1 {
+      font-size: 28px;
+      line-height: 36px;
+    }
+  }
+  
+  #hero h2 {
+    color: #777;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+  }
+  
+  @media (max-width: 768px) {
+    #hero h2 {
+      font-size: 18px;
+      line-height: 24px;
+      margin-bottom: 30px;
+    }
+  }
+  
+  #hero img {
+    max-width: 95%;
+    margin-bottom: 30px;
+  }
+  
+  #hero .btn-get-started {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 11px 36px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin-bottom: 30px;
+    border: 2px solid #77acb7;
+    background: #fff;
+    color: #77acb7;
+    text-decoration: none;
+  }
+  
+  #hero .btn-get-started:hover {
+    background: #77acb7;
+    color: #fff;
+  }
+  
+ 
+ 
+  .padd-section {
+    padding-bottom: 40px;
+    padding-top: 80px;
+  }
+  
+  @media (max-width: 992px) {
+    .padd-section {
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+  }
+  
+
+
+  #info {
+    background: #eaf2f4;   
+    padding-top: 60px; 
+  }
+
+  #info .tab a {
+    color: #eaf2f4;
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 4px 20px;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  @media (max-width: 575px) {
+    #info .tab a {
+      margin: 4px 8px;
+    }
+  }
+  
+  #info .tab a:hover {
+    color: #77acb7;
+  }
+
+  #info .info-campo {
+    text-align: center;
+    margin-top: 5%;
+  }
+
+  .icones {
+    width: 30%;
+  }
+
+
+  #categorias .feature-block {
+    background: #fff none repeat scroll 0 0;
+    margin-bottom: 30px;
+    transition: all 0.5s ease-in-out 0s;
+    /* align-items: center; */
+  }
+  
+  #categorias .feature-block:hover {
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s ease-in-out 0s;
+  }
+  
+  #categorias .feature-block h4 {
+    margin-bottom: 20px;
+  }
+
+  #categorias .feature-block img {
+    width: 40%;
+  }
+  
+  #categorias .feature-block p {
+    margin-bottom: 20px;
+  }
+
+
+
+    #parceiros {
+      background-color: #d8d8d8 !important;
+      display: inline-block;
+      height: 100%;
+      width: 100%;
+    }
+    
+    #parceiros .icone-link {
+      background: #dbdada none repeat scroll 0 0;
+      padding: 20px 10px;
+      margin-bottom: 30px;
+    }
+
+    
+    #parceiros .icone-link h4 {
+      margin-bottom: 20px;
+    }
+
+    
+  .footer {
+    background-color: #818181 !important;
+    padding-top: 40px;
+    padding-bottom: 15px;
+    font-family: 'Lato', sans-serif;
+
+  }
+
+  .footer .list-menu > h4 {
+    color: #fff;
+    padding-bottom: 20px;
+  }
+  
+  .footer .list-menu ul li a {
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    letter-spacing: 0;
+  }
+  
+
+ 
